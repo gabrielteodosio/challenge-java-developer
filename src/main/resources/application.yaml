@@ -1,6 +1,9 @@
 spring:
   application:
     name: challenge-java-developer
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:86GKQKH5mKmOnF6F@developmentcluster.emsgo.mongodb.net/DevelopmentDatabase?retryWrites=true&w=majority&appName=DevelopmentCluster&databaseName=
 
 server:
   port: 5000
